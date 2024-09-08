@@ -1,0 +1,3 @@
+buildcommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput"
+
+startCommand: "gunicorn backend.wsgi:application --preload --workers 3

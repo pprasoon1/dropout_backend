@@ -1,0 +1,1 @@
+startCommand: "gunicorn backend.wsgi:application --preload --workers 3
